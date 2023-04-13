@@ -1,0 +1,17 @@
+.whatsapp-desktop, .whatsapp-mobile {
+    position: fixed;
+    z-index: 700;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 56px;
+    height: 56px;
+}
+.whatsapp-desktop:hover, .whatsapp-mobile:hover {
+    opacity:.9;
+  }
+@media (min-width: 480px){
+  .whatsapp-mobile {display: none !important}
+}
+@media(max-width: 480px){
+  .whatsapp-desktop { display: none !important}
+}
