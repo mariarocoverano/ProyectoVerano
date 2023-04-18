@@ -449,7 +449,8 @@ h3.blog_head {
 
 .services .carousel-inner .carousel-item {
     width: 100%;
-    height: 100%
+    height: 100%;
+    position: relative;
 }
 
 .services .carousel-inner img {
@@ -884,6 +885,31 @@ footer .copyright p {
         width: 87%;
     }
     
+    
+    .ovarlay_slide_cont {
+        background: rgba(5,3,0,0.63);
+        position: relative;
+        width: 70%;
+        margin: 0 15%;
+        z-index: 1111111111;
+        top: 0;
+        left: 0;
+        padding: 50px 60px 70px;
+    }
+    
+    .ovarlay_slide_cont h2 {
+        font-size: 45px;
+    }
+    
+    .ovarlay_slide_cont p {
+        color: #fff;
+        font-weight: 300;
+        margin: 0 0 30px 0;
+        font-size: 19px;
+        padding: 0;
+        line-height: 28px;
+    }    
+    
 }
 
 
@@ -1020,98 +1046,98 @@ footer .item h4 {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-.ovarlay_slide_cont {
-    background: rgba(5,3,0,0.63);
-    position: absolute;
-    width: 70%;
-    margin: 0 15%;
-    z-index: 1111111111;
-    top: 0;
-    left: 0;
-    padding: 50px 60px 70px;
-}
+    .ovarlay_slide_cont {
+        background: rgba(5,3,0,0.63);
+        position: absolute;
+        width: 70%;
+        margin: 0 15%;
+        z-index: 1111111111;
+        top: 0;
+        left: 0;
+        padding: 50px 60px 70px;
+    }
 
-.ovarlay_slide_cont h2 {
-    font-size: 45px;
-}
+    .ovarlay_slide_cont h2 {
+        font-size: 45px;
+    }
 
-.ovarlay_slide_cont p {
-    color: #fff;
-    font-weight: 300;
-    margin: 0 0 30px 0;
-    font-size: 19px;
-    padding: 0;
-    line-height: 28px;
-}    
+    .ovarlay_slide_cont p {
+        color: #fff;
+        font-weight: 300;
+        margin: 0 0 30px 0;
+        font-size: 19px;
+        padding: 0;
+        line-height: 28px;
+    }    
 
-.h3, h3 {
-    font-size: 30px;
-}
+    .h3, h3 {
+        font-size: 30px;
+    }
 
-.about_section h3 {
-    font-size: 30px;
-}
+    .about_section h3 {
+        font-size: 30px;
+    }
 
-.about_section h4 {
-    color: #4fcaff;
-    font-size: 16px;
-    margin: 0;
-}
+    .about_section h4 {
+        color: #4fcaff;
+        font-size: 16px;
+        margin: 0;
+    }
 
-h3.blog_head {
-    width: 100%;
-    float: left;
-    background: #fff;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #090101;
-    margin: 0;
-    min-height: 50px;
-    line-height: 50px;
-}
+    h3.blog_head {
+        width: 100%;
+        float: left;
+        background: #fff;
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #090101;
+        margin: 0;
+        min-height: 50px;
+        line-height: 50px;
+    }
 
-.service_blog h3.blog_head {
-    float: left;
-    background: #4fcaff;
-    text-align: center;
-    font-size: 18px;
-    text-transform: none;
-    margin: 0;
-    min-height: 50px;
-    line-height: 50px;
-    padding: 0 20px;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 65%;
-    max-width: 300px;
-    left: 15px;
-    font-weight: 500;
-}
+    .service_blog h3.blog_head {
+        float: left;
+        background: #4fcaff;
+        text-align: center;
+        font-size: 18px;
+        text-transform: none;
+        margin: 0;
+        min-height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 65%;
+        max-width: 300px;
+        left: 15px;
+        font-weight: 500;
+    }
 
-.service_blog h3.blog_head::after {
-    width: 50px;
-    height: 50px;
-    content: "";
-    display: block;
-    position: absolute;
-    right: -35px;
-    background: #4fcaff;
-    top: 0;
-    transform: skew(-30deg);
-}
+    .service_blog h3.blog_head::after {
+        width: 50px;
+        height: 50px;
+        content: "";
+        display: block;
+        position: absolute;
+        right: -35px;
+        background: #4fcaff;
+        top: 0;
+        transform: skew(-30deg);
+    }
 
-.contact-form {
-    padding: 40px 50px;
-    background: #4fcaff;
-    min-height: 600px;
-    margin-top: 60px;
-}
+    .contact-form {
+        padding: 40px 50px;
+        background: #4fcaff;
+        min-height: 600px;
+        margin-top: 60px;
+    }
 
-.service_blog img {
-    width: 100%;
-}
+    .service_blog img {
+        width: 100%;
+    }
 
 }
 
@@ -1234,9 +1260,7 @@ p {
     color: #fff;
 }
 
-.ovarlay_slide_cont {
-    display: none;
-}
+
 
 .service_blog img {
     width: 100%;
