@@ -1261,33 +1261,7 @@ p {
 }
 
 .ovarlay_slide_cont {
-   width: 100%;
-}
-    .ovarlay_slide_cont h2 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-}
-
-.ovarlay_slide_cont h4 {
-    color: #4fcaff;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 15px;
-    line-height: normal;
-}
-
-.ovarlay_slide_cont p {
-    color: #fff;
-    font-weight: 300;
-    margin: 30px;
-    font-size: 1rem;
-    padding: 75px;
-    line-height: 28px;
+   
 }
 
 .service_blog img {
