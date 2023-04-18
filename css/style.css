@@ -1260,30 +1260,36 @@ p {
     color: #fff;
 }
 
-
-    .ovarlay_slide_cont {
-        background: rgba(5,3,0,0.63);
-        
-        width: 100%;
-        margin: 15%;
-        
-        top: 0;
-        left: 0;
-        padding: 50px 60px 70px;
-    }
-
-    .ovarlay_slide_cont h2 {
-        font-size: 2rem;
-    }
-
-    .ovarlay_slide_cont p {
-        color: #fff;
-        font-weight: 300;
-        margin: 0 0 30px 0;
-        font-size: 1rem;
-        padding: 0;
-        line-height: 28px;
-
+.ovarlay_slide_cont {
+    background: rgba(5,3,0,0.63);
+    /* width: 100%; */
+    /* margin: 15% 15%; */
+    top: 0;
+    left: 0;
+    padding: 50px 60px 70px;
+}
+.ovarlay_slide_cont h2 {
+    font-size: 2rem;
+}
+.ovarlay_slide_cont h4 {
+    color: #4fcaff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    line-height: normal;
+}
+.blue_bt {
+    width: 100%;
+    /* height: 58px; */
+    background: #4fcaff;
+    color: #fff;
+    float: left;
+    text-align: center;
+    
+    font-size: 1.2em;
+    font-weight: 300;
+}
 .service_blog img {
     width: 100%;
 }
