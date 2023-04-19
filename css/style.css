@@ -1275,18 +1275,18 @@ p {
     padding: 5px;
 }
 .ovarlay_slide_cont h2 {
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 .ovarlay_slide_cont h4 {
     color: #4fcaff;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 15px 0;
     line-height: normal;
 }
 .ovarlay_slide_cont p{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .blue_bt {
     width: 100%;
