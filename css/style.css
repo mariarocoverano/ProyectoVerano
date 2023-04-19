@@ -1259,25 +1259,34 @@ p {
     background: #111;
     color: #fff;
 }
+.carousel-item{
+    height: 300px;
+    margin: 0;
+}
 
 .ovarlay_slide_cont {
     background: rgba(5,3,0,0.63);
-    /* width: 100%; */
-    /* margin: 15% 15%; */
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    z-index: 1111111111;
     top: 0;
     left: 0;
-    padding: 50px 60px 70px;
+    padding: 5px;
 }
 .ovarlay_slide_cont h2 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .ovarlay_slide_cont h4 {
     color: #4fcaff;
-    font-size: 2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 15px 0;
     line-height: normal;
+}
+.ovarlay_slide_cont p{
+    font-size: 1rem;
 }
 .blue_bt {
     width: 100%;
@@ -1287,7 +1296,7 @@ p {
     float: left;
     text-align: center;
     
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 300;
 }
 .service_blog img {
