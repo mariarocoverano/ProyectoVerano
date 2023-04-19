@@ -1279,6 +1279,9 @@ p {
     text-aling: center;
     margin-left: 28%;
 }
+.logo{
+    width: 135px;
+}
 .ovarlay_slide_cont h4 {
     color: #4fcaff;
     font-size: 1.3rem;
